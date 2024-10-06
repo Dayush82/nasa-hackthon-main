@@ -1,0 +1,99 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #000; /* Black background */
+    color: #f0f0f0; /* Light gray text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.quiz-container {
+    background-color: #1a1a1a; /* Darker gray container background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    text-align: center;
+    width: 350px;
+    border: 3px solid #ff0000; /* Bright red border */
+}
+
+h1 {
+    color: #ff0000; /* Bright red for the title */
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px #ff4d4d; /* Soft red shadow */
+}
+
+.choices {
+    margin: 20px 0;
+}
+
+.btn-choice {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #3a3a3a; /* Dark gray for buttons */
+    color: #f0f0f0; /* Light gray text for buttons */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn-choice:hover {
+    background-color: #ff4d4d; /* Lighter red on hover */
+}
+
+.correct-answer {
+    background-color: rgba(40, 167, 69, 0.6); /* Soft green with transparency */
+    color: #ffffff; /* White text for visibility */
+    box-shadow: 0 0 15px rgba(40, 167, 69, 1); /* Soft green glow */
+    border: 2px solid rgba(40, 167, 69, 0.8); /* Darker border for definition */
+}
+
+.wrong-answer {
+    background-color: rgba(255, 111, 97, 0.6); /* Soft red with transparency */
+    color: #ffffff; /* White text for visibility */
+    box-shadow: 0 0 15px rgba(255, 111, 97, 1); /* Soft red glow */
+    border: 2px solid rgba(255, 111, 97, 0.8); /* Darker border for definition */
+}
+
+.btn-next {
+    margin: 20px auto; /* Center the button */
+    padding: 10px 20px;
+    background-color: #ff0000; /* Bright red */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    display: block; /* Make it a block element */
+    width: 80%; /* Set a width for the button */
+}
+
+.comic-text {
+    text-align: center;
+    font-weight: normal;
+}
+
+.quiz-button {
+    background-color: #0078d4; /* Adjust the color as needed */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.quiz-button:hover {
+    background-color: #005a9e; /* Adjust the hover color as needed */
+}
