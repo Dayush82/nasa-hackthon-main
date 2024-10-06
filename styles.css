@@ -95,8 +95,8 @@ nav ul li:hover .dropdown-content {
     color: red;
     margin-top: -15px;
     letter-spacing: 20px;
-    background: #B8E1FC;
-    background: radial-gradient(circle farthest-corner at center center, #B8E1FC 0%, #2147C5 100%);
+    background: #DE1414;
+    background: radial-gradient(circle farthest-corner at center center, #DE1414 0%, #1A30BD 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     position: relative;
@@ -110,8 +110,8 @@ nav ul li:hover .dropdown-content {
     color: white;
     position: relative;
     text-align: center;
-    background: #B8E1FC;
-    background: radial-gradient(circle farthest-corner at center center, #B8E1FC 0%, #2147C5 100%);
+    background: #DE1414;
+    background: radial-gradient(circle farthest-corner at center center, #DE1414 0%, #1A30BD 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
