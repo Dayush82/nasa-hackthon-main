@@ -91,17 +91,29 @@ nav ul li:hover .dropdown-content {
 }
 
 .content h1 {
-    font-size: 46px;
-    font-weight: normal;
+    font-size: 51px;
+    color: red;
+    margin-top: -15px;
     letter-spacing: 20px;
-    color: white;
+    background: #B8E1FC;
+    background: radial-gradient(circle farthest-corner at center center, #B8E1FC 0%, #2147C5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    text-align: center;
 }
 
 .content h2 {
     font-size: 123px;
     font-weight: bold;
     letter-spacing: 38px;
-    color: white;   
+    color: white;
+    position: relative;
+    text-align: center;
+    background: #B8E1FC;
+    background: radial-gradient(circle farthest-corner at center center, #B8E1FC 0%, #2147C5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .content h3 {
     font-size: 51px;
@@ -272,4 +284,8 @@ nav ul li:hover .dropdown-content {
 
 .quiz-button:hover {
     background-color: red; /* Adjust the hover color as needed */
+}
+.movie {
+    display: block;
+    margin: 0 auto;
 }
