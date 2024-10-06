@@ -1,83 +1,93 @@
 const quizQuestions = [
     {
-        question: "What is an exoplanet?",
+        question: "What is NASA's goal with the Exoplanet Exploration Program?",
         choices: [
-            "A planet outside our solar system",
-            "A star in our galaxy",
-            "A moon orbiting another planet",
-            "A comet in space"
-        ],
-        answer: 0
-    },
-    {
-        question: "What do most exoplanets orbit?",
-        choices: [
-            "Other stars",
-            "Our sun",
-            "Black holes",
-            "Galaxies"
-        ],
-        answer: 0
-    },
-    {
-        question: "How are other planetary systems different from ours?",
-        choices: [
-            "They have the same number of planets",
-            "They have different numbers of stars and planets",
-            "They only have one planet",
-            "They don’t have stars"
+            "To find out if aliens are visiting us",
+            "To discover planets that might support life",
+            "To build a spaceship to Mars",
+            "To learn about our own solar system"
         ],
         answer: 1
     },
     {
-        question: "Why are exoplanets hard to see?",
+        question: "What type of planets is NASA especially interested in finding?",
         choices: [
-            "They are very small",
-            "They are faint compared to their stars",
-            "They are too far away",
-            "They are invisible"
-        ],
-        answer: 1
-    },
-    {
-        question: "How do scientists study exoplanets?",
-        choices: [
-            "By using spaceships",
-            "By observing them with telescopes",
-            "By sending astronauts",
-            "By drilling into planets"
-        ],
-        answer: 1
-    },
-    {
-        question: "What is the closest known exoplanet to Earth?",
-        choices: [
-            "Jupiter",
-            "Proxima Centauri b",
-            "Alpha Centauri",
-            "Kepler-452b"
-        ],
-        answer: 1
-    },
-    {
-        question: "How many exoplanets have been discovered so far?",
-        choices: [
-            "Over 500",
-            "Over 1,000",
-            "Over 5,600",
-            "Over 10,000"
+            "Super giant planets",
+            "Planets made of candy",
+            "Earth-sized planets in the right spot to support life",
+            "Planets that spin really fast"
         ],
         answer: 2
     },
     {
-        question: "What are the main classes of exoplanets?",
+        question: "What is one fun way scientists find exoplanets?",
         choices: [
-            "Gas giants, Neptunians, Super-Earths",
-            "Rocky planets, Gas planets, Icy planets",
-            "Habitable, Inhabitable, Unknown",
-            "Earth-like, Jupiter-like, Neptune-like"
+            "By asking aliens for help",
+            "By watching stars wobble when a planet pulls on them",
+            "By sending robots to take pictures",
+            "By using super-duper telescopes only"
+        ],
+        answer: 1
+    },
+    {
+        question: "Why does NASA study all kinds of planets, even the weird ones?",
+        choices: [
+            "Because they want to find out what makes them different",
+            "So they can name them all",
+            "To decide which ones are best for vacation",
+            "To know how many people live there"
         ],
         answer: 0
+    },
+    {
+        question: "What does \"Gravitational Microlensing\" help scientists do?",
+        choices: [
+            "Make stars shine brighter for a moment",
+            "Find candy in space",
+            "Zoom in on distant planets",
+            "Measure how far the stars are"
+        ],
+        answer: 0
+    },
+    {
+        question: "What is a \"Coronagraph\" used for?",
+        choices: [
+            "To block out light from a star so we can see nearby planets",
+            "To take pictures of space cats",
+            "To check the weather on other planets",
+            "To create maps of the universe"
+        ],
+        answer: 0
+    },
+    {
+        question: "How many methods do scientists have to find exoplanets?",
+        choices: [
+            "2",
+            "5",
+            "7",
+            "10"
+        ],
+        answer: 2
+    },
+    {
+        question: "What can scientists learn by studying other planetary systems?",
+        choices: [
+            "How to make better video games",
+            "How to become astronauts",
+            "HHow to build rocket ships",
+            "More about how planets are formed and where life can exist"
+        ],
+        answer: 3
+    },
+    {
+        question: "Why is it important to share discoveries about exoplanets with the public?",
+        choices: [
+            "To make science fun and exciting for everyone",
+            "So people can travel to those planets",
+            "To show off NASA's technology",
+            "To find out who loves space the most"
+        ],
+        answer: 3
     }
 ];
 
