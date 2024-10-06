@@ -185,7 +185,7 @@ nav ul li:hover .dropdown-content {
     font-weight: normal;
 }
 .quiz-button {
-    background-color: #0078d4; /* Adjust the color as needed */
+    background-color: red; /* Adjust the color as needed */
     color: white;
     border: none;
     padding: 10px 20px;
@@ -199,7 +199,7 @@ nav ul li:hover .dropdown-content {
 }
 
 .quiz-button:hover {
-    background-color: #005a9e; /* Adjust the hover color as needed */
+    background-color: red; /* Adjust the hover color as needed */
 }
 
 
@@ -269,7 +269,7 @@ nav ul li:hover .dropdown-content {
 }
 
 .quiz-button {
-    background-color: #0078d4; /* Adjust the color as needed */
+    background-color: red; /* Adjust the color as needed */
     color: white;
     border: none;
     padding: 10px 20px;
@@ -283,5 +283,5 @@ nav ul li:hover .dropdown-content {
 }
 
 .quiz-button:hover {
-    background-color: #005a9e; /* Adjust the hover color as needed */
+    background-color: red; /* Adjust the hover color as needed */
 }
