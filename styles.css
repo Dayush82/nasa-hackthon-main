@@ -285,3 +285,7 @@ nav ul li:hover .dropdown-content {
 .quiz-button:hover {
     background-color: red; /* Adjust the hover color as needed */
 }
+.movie {
+    display: block;
+    margin: 0 auto;
+}
