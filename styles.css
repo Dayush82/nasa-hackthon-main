@@ -289,3 +289,7 @@ nav ul li:hover .dropdown-content {
     display: block;
     margin: 0 auto;
 }
+.links_lol {
+    font-size: 25px;
+    margin-top: 15px;
+}
